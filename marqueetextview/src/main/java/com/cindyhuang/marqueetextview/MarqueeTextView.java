@@ -32,7 +32,7 @@ public class MarqueeTextView extends RecyclerView {
             super.handleMessage(msg);
             switch (msg.what) {
                 case HANDLER_MESSAGE_ID_SCROLL:
-                    MarqueeTextView.this.smoothScrollBy(50, 0);
+                    MarqueeTextView.this.smoothScrollBy(200, 0);
                     break;
                 case HANDLER_MESSAGE_ID_TWINK:
                     MarqueeTextView.this.setVisibility(
