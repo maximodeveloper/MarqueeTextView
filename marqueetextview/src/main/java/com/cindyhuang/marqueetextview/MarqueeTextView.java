@@ -126,7 +126,7 @@ public class MarqueeTextView extends RecyclerView {
                 public void run() {
                     while (!shouldStop.get()) {
                         try {
-                            Thread.sleep(10);
+                            Thread.sleep(100);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
